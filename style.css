@@ -22,10 +22,22 @@ main {
   justify-content: center;
   align-items: center;
 }
-main .time {
+main .quotes {
+  position: relative;
   font-size: 60px;
-  border: 10px dotted blueviolet;
-  padding: 12px 24px;
+}
+main .quotes .quotesAddBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+main .quotes:hover .quotesAddBtn {
+  display: inline-block;
+}
+main .newQuotes {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
